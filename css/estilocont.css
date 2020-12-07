@@ -1,0 +1,56 @@
+body{
+    background-image: url(fun.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+
+form {
+    width: 480px;
+    margin: auto;
+    background: rgba(0,0,0,0,4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: seashell;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-color: rgb(30, 80, 121);
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%:
+    }
+}
