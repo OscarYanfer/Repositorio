@@ -81,7 +81,7 @@ header .textos-header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+    letter-spacing: 8px;
 }
 .imagen-port{
     width: 30%;
@@ -129,6 +129,7 @@ footer{
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
+        letter-spacing: 3px;
 }
 
 .contenedor-footer{
