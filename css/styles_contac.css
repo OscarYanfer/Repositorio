@@ -3,7 +3,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     font-family: monospace;
-    background-image: url(..\img\contacto\fun.jpg);
+    background-image: url(../img/contacto/fun.jpg);
 }
 
 form {
