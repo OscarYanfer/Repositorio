@@ -4,27 +4,32 @@
     <meta charset='utf-8'>
     <title>Syeniware</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\main.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&dsisplay=swap" rel="stylesheet">
     <script src='main.js'></script>
+
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Buscar</a>
-            <a href="#">Subir material academico</a>
-            <a href="#">Contactenos</a>
-            <a href="#">Cerrar sesión</a>
+            <a href="html\login.html">INICIO</a>
+            <a href="html\buscar.html">BUSCAR</a>
+            <a href="html\subir_material.html">SUBIR MATERIAL ACADÉMICO</a>
+            <a href="html\contacto.html">CONTÁCTENOS</a>
+            <a href="#">CERRAR SESIÓN</a>
+        </nav>
             <section class="textos-header">
                 <h1>REPOSITORIO DE MATERIAL ACADÉMICO</h1>
-                <h2>Facultad de Ingeniería de Sistemas e Informatica - UNMSM</h2>
+                <h2>Facultad de Ingeniería de Sistemas e Informática - UNMSM</h2>
             </section>
-            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
-            <main>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
                 <section class="contenedor sobre-nosotros">
                     <h2 class="titulo">Sobre Nosotros</h2>
                     <div class="contenedor-sobre-nosotros">
-                        <img src="img/sobre1.jpg" alt="" class="imagen-about-us">
+                        <img src="img/index/sobre1.jpg" alt="" class="imagen-about-us">
                     </div>
                 </section>
                 <section class="Catalogo">
@@ -32,20 +37,50 @@
                         <h2 class="titulo">Catálogo</h2>
                         <div class="galeria-catalogo">
                             <div class="imagen-port">
-                                <img src="" alt="">
+                                <img src="img/pregrado1.jpg" alt="">
+                                <div class="hover-galeria">
+                                    <img src="img/icono1.png" alt="">
+                                    <p>POSTGRADO</p>
+                                </div>                      
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/postgrado1.jpg" alt="">
+                                <div class="hover-galeria">
+                                    <img src="img/icono1.png" alt="">
+                                    <p>PREGRADO</p>
+                                </div>                      
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/profesor1.jpg" alt="">
+                                <div class="hover-galeria">
+                                    <img src="img/icono1.png" alt="">
+                                    <p>DOCENTES</p>
+                                </div>                      
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/ciclos1.jpg" alt="">
+                                <div class="hover-galeria">
+                                    <img src="img/icono1.png" alt="">
+                                    <p>CICLOS</p>
+                                </div>                      
                             </div>
                         </div>
                     </div>
 
-                </section>
-                    
-
-                    
-
-
-            </main>
-
-
-        </nav>
-    </header>
+                </section>       
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+           <div class ="content-foo">
+                <h4>SOPORTE</h4>
+                 <p>luiggi.pasache@unmsm.edu.pe</p>
+                 <p>oscar.yanfer@unmsm.edu.pe</p>
+                 <p>jorge.quispe@unmsm.edu.pe</p>
+                 <p>diego.montalvo@unmsm.edu.pe</p>
+                 <p>wilker.atalaya@unmsm.edu.pe</p>
+                 <p>joseph.robles@unmsm.edu.pe</p>
+           </div>  
+        </div>
+        <h2 class="titulo-final">&copy; Grupo 7 - Procesos de Software</h2>
+    </footer>
 </body>
