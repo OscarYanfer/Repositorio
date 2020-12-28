@@ -8,6 +8,5 @@ text.required = " ";
 password.required = " ";
 
 document.addEventListener("submit", function(){
-    alert(text.value);
-    alert(password.value);
+    alert('Sesion iniciada');
 });
