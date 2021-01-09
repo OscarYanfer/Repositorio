@@ -1,16 +1,22 @@
-#Project Charter
+## Project Charter
 
 
-Nombre del Proyecto: SYENIWARE 
+Nombre del Proyecto: **SYENIWARE** 
 
 
-Descripción:        Repositorio de los trabajos de investigación que los estudiantes de la FISI han elaborado a lo largo de sus años de estudios. 
+### Descripción:        
 
 
-Director:           Oscar Stalyn Yanfer Laura, el jefe del proyecto a presentar.
+Repositorio de los trabajos de investigación que los estudiantes de la FISI han elaborado a lo largo de sus años de estudios. 
 
 
-Colaboradores: 
+### Director:           
+
+
+                    Oscar Stalyn Yanfer Laura, el jefe del proyecto a presentar.
+
+
+### Colaboradores: 
 
 
                     Pasache Lopera Luiggi Steep    Encargado del funcionamiento de la página web
@@ -31,7 +37,7 @@ Colaboradores:
 
 
 
-Recursos:        
+### Recursos:        
 
                    Github
 
@@ -49,7 +55,7 @@ Recursos:
 
 
 
-#Archivos:
+## Archivos:
 
 
 index.html → documento principal
