@@ -1,4 +1,5 @@
-Project Charter
+#Project Charter
+
 
 Nombre del Proyecto: SYENIWARE 
 
@@ -10,6 +11,8 @@ Director:           Oscar Stalyn Yanfer Laura, el jefe del proyecto a presentar.
 
 
 Colaboradores: 
+
+
                     Pasache Lopera Luiggi Steep    Encargado del funcionamiento de la página web
 
 
@@ -24,25 +27,41 @@ Colaboradores:
 
                     Montalvo Ortega, Diego Tharlez Encargado de las pruebas de la página web
 
-                    
 
 
 
-Recursos:           Github
+
+Recursos:        
+
+                   Github
+
+
                     HTML
+
+
                     CSS
+
+
                     DevOps
+
+
                     Trabajos de investigación por estudiantes de la FISI
+
+
+
+#Archivos:
 
 
 index.html → documento principal
 
-Carpetas:
 
 html → links que se pueden encontrar en html
 
+
 img → imágenes del repositorio
+
 
 css → estilos css de los enlaces 
 
-js → código javascript de los enlaces 
+
+src → codigo de programacion en los enlaces 
