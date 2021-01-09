@@ -11,13 +11,14 @@
         </style>
     </head>
     <body>
-        <form action="">
+        <form action="enviar.php" method="post">
             <h2>Contáctanos</h2>
-            <input type="text" id="nombre" name="Nombre" placeholder="Nombre">
-            <input type="text" id="correo" name="Correo institucional" placeholder="Correo institucional">
-            <input type="text" id="telefono" name="Teléfono" placeholder="Telefono">
-            <textarea name="mensaje" id="mensaje" placeholder="Escriba aqui su mensaje..."></textarea>
-            <input type="button" id="enviar" value="ENVIAR" id="boton">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <input type="text" id="correo" name="correo" placeholder="Correo" required>
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono" required>
+            <textarea name="mensaje" id="mensaje" placeholder="Escriba aqui su mensaje..." required></textarea>
+            <input type="submit" id="enviar" value="ENVIAR" id="boton">
             <script src='../js/contacto.js'></script>
         </form>
     </body>
+</html>
