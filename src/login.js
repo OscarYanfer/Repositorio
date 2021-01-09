@@ -1,5 +1,4 @@
 
-
 let text = document.getElementById('usuario'); 
 
 let password = document.getElementById('contraseña'); 
